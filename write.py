@@ -1,0 +1,6 @@
+f=open("read.txt","w")
+f.write("i have deleted the content")
+f.close()
+f=open("read.txt","r")
+print(f.read())
+f.close()

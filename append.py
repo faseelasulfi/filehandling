@@ -1,0 +1,6 @@
+f=open("read.txt","a")
+f.write("now the file has more content")
+f.close()
+f=open("read.txt","r")
+print(f.read())
+f.close()

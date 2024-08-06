@@ -1,0 +1,6 @@
+f=open("write.txt","w")
+f.write(" hai")
+f.close()
+f=open("write.txt","r")
+print(f.read())
+f.close()

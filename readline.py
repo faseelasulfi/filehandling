@@ -1,0 +1,5 @@
+test=open("read.txt","r")
+print(test.readline())
+print(test.readline())
+print(test.readline())
+test.close()
